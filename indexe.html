@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EmojiPlus - Os emoticons que dão vida às suas conversas!</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--b:#3D0A1E;--p:#E93A6E;--cream:#FFFBF0}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Inter,sans-serif;background:var(--cream);color:var(--b)}
+h1,h2{font-family:'Plus Jakarta Sans',sans-serif}
+.container{max-width:1120px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;z-index:10;background:rgba(255,251,240,.9);backdrop-filter:blur(10px);border-bottom:1px solid #f0e6d3;padding:14px 0}
+.nav-flex{display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:800;font-size:24px;display:flex;gap:6px}
+.logo span{color:var(--p)}
+.links{display:flex;gap:24px;list-style:none}
+.links a{font-size:14px;font-weight:600;text-decoration:none;color:#6b4a56}
+.links a.active{color:var(--b);border-bottom:2px solid var(--p)}
+.search{display:flex;gap:10px;align-items:center}
+.sbox{background:white;border:1px solid #eee;border-radius:999px;padding:8px 14px;width:200px;display:flex;gap:6px}
+.sbox input{border:none;outline:none;font-size:12px;width:100%}
+.heart{background:var(--p);width:32px;height:32px;border-radius:50%;display:grid;place-items:center;color:white}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:20px;padding:50px 20px;align-items:center}
+.badge{font-size:11px;color:var(--p);font-weight:700;letter-spacing:1.5px;text-transform:uppercase}
+.hero h1{font-size:44px;line-height:.95;margin:12px 0 16px;font-weight:800}
+.hero h1 span{color:var(--p)}
+.hero p{color:#7a5a66;font-size:15px;line-height:1.5;max-width:400px}
+.btns{display:flex;gap:12px;margin-top:22px}
+.btn-p{background:var(--p);color:white;padding:12px 20px;border-radius:999px;border:none;font-weight:700;cursor:pointer}
+.btn-s{background:white;border:1px solid var(--p);color:var(--b);padding:12px 20px;border-radius:999px;font-weight:600}
+.sobre{display:grid;grid-template-columns:1fr 1fr;gap:30px;padding:40px 20px;align-items:center}
+.feats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:16px}
+.feat{border-left:1px solid #f0d6dc;padding-left:12px}
+.feat h4{font-size:12px;margin:6px 0 3px}
+.feat p{font-size:11px;color:#8a6b76}
+.galeria{background:#FFF5F7;padding:40px 20px}
+.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+.cc{border-radius:14px;padding:18px 10px;text-align:center;cursor:pointer}
+.cc .em{font-size:38px}
+.c1{background:#FFF3CD}.c2{background:#FFDEE2}.c3{background:#E9E0FF}.c4{background:#FFD6DE}.c5{background:#D6F0FF}
+.av{padding:40px 20px}
+.testis{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:20px}
+.t{background:white;padding:16px;border-radius:14px;box-shadow:0 4px 18px rgba(0,0,0,.05)}
+footer{background:var(--b);color:white;padding:34px 20px 16px;border-radius:22px 22px 0 0;margin-top:20px}
+.fgrid{display:grid;grid-template-columns:1.5fr .8fr .8fr 1.2fr;gap:18px}
+.news{display:flex;background:white;border-radius:999px;overflow:hidden;padding:3px;margin-top:8px}
+.news input{border:none;flex:1;padding:7px 12px;font-size:11px;outline:none}
+.news button{background:var(--p);border:none;width:30px;height:30px;border-radius:50%;color:white}
+@media(max-width:900px){.hero,.sobre{grid-template-columns:1fr}.links{display:none}.cards{grid-template-columns:repeat(2,1fr)}.testis,.fgrid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<nav><div class="container nav-flex"><div class="logo">😊 Emoji<span>Plus</span></div><ul class="links"><li><a class="active" href="#">Início</a></li><li><a href="#sobre">Sobre</a></li><li><a href="#galeria">Galeria</a></li><li><a href="#avaliacoes">Avaliações</a></li></ul><div class="search"><div class="sbox">🔍<input placeholder="Buscar emoticons..."></div><div class="heart">♥</div></div></div></nav>
+
+<section class="container hero"><div><div class="badge">Expresse mais. Conecte melhor.</div><h1>Os emoticons que dão vida às suas <span>conversas!</span></h1><p>Descubra milhares de emoticons para expressar sentimentos, personalizar mensagens e tornar cada conversa mais divertida.</p><div class="btns"><button class="btn-p">😊 Explorar agora →</button><button class="btn-s">▶ Ver como funciona</button></div></div><div style="position:relative;text-align:center"><div style="font-size:180px">😍</div></div></section>
+
+<section id="sobre" class="container sobre"><div><div class="badge">SOBRE</div><h2>Expresse emoções com <span style="color:var(--p)">apenas um toque!</span></h2><div class="feats"><div class="feat"><h4>Fácil de usar</h4><p>Encontre, copie e cole.</p></div><div class="feat"><h4>Para todos os momentos</h4><p>Do riso ao carinho.</p></div><div class="feat"><h4>Sempre atualizado</h4><p>Novos com frequência.</p></div></div></div><div style="background:#FFE3E8;width:260px;height:340px;border-radius:28px;margin:0 auto;display:grid;place-items:center;font-size:60px">📱</div></section>
+
+<section id="galeria" class="galeria"><div class="container"><div class="cards"><div class="cc c1"><div class="em">😃</div><h4>Alegria →</h4></div><div class="cc c2"><div class="em">😍</div><h4>Amor →</h4></div><div class="cc c3"><div class="em">😎</div><h4>Estilo →</h4></div><div class="cc c4"><div class="em">😘</div><h4>Fofura →</h4></div><div class="cc c5"><div class="em">😲</div><h4>Surpresa →</h4></div></div></div></section>
+
+<section id="avaliacoes" class="av container"><div class="badge">AVALIAÇÕES</div><h2>Quem usa, <span style="color:var(--p)">adora!</span></h2><div class="testis"><div class="t"><p>“Os emoticons são incríveis! Uso todos os dias.”</p><b>Camila S.</b></div><div class="t"><p>“Muito prática e fácil de usar.”</p><b>Rafael M.</b></div><div class="t"><p>“Deixa minhas mensagens mais criativas.”</p><b>Juliana P.</b></div></div></section>
+
+<footer><div class="container fgrid"><div><div class="logo">😊 EmojiPlus</div></div><div><a href="#">Início</a><a href="#">Sobre</a></div><div><a href="#">Categorias</a><a href="#">Contato</a></div><div><div class="news"><input placeholder="Seu e-mail"><button>→</button></div></div></div><div style="text-align:center;font-size:10px;color:#8a5a6b;margin-top:20px">© 2025 EmojiPlus</div></footer>
+
+<script>
+// Copiar ao clicar
+document.querySelectorAll('.cc').forEach(c=>{c.addEventListener('click',()=>{const e=c.querySelector('.em').innerText;navigator.clipboard.writeText(e);alert(e+' copiado!')})})
+</script>
+</body>
+</html>
